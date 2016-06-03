@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
-gem 'rails', '>= 5.0.0.rc1', '< 5.1'
-gem 'pg'
-gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'rails', github: 'rails/rails'
+gem 'turbolinks', github: 'rails/turbolinks'
+gem 'coffee-rails', github: 'rails/coffee-rails' # 5/10/2016: Needed for Rails 5.1
+gem 'sass-rails', github: 'rails/sass-rails' # 5/10/2016: Needed for Rails 5.1
 
+gem 'pg'
+gem 'puma'
+gem 'uglifier'
 gem 'jquery-rails'
-gem 'turbolinks', '~> 5.x'
-gem 'jbuilder', '~> 2.0'
-gem 'redis', '~> 3.0'
+gem 'jbuilder'
+gem 'redis'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development do
   gem 'web-console'
-  gem 'listen', '~> 3.0.5'
+  gem 'listen'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
 end
 
 group :development, :test do
