@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', github: 'rails/rails'
-gem 'turbolinks', github: 'rails/turbolinks'
-gem 'coffee-rails', github: 'rails/coffee-rails' # 5/10/2016: Needed for Rails 5.1
-gem 'sass-rails', github: 'rails/sass-rails' # 5/10/2016: Needed for Rails 5.1
 
+gem 'turbolinks'
+gem 'coffee-rails'
+gem 'sass-rails'
 gem 'pg'
 gem 'puma'
 gem 'uglifier'
