@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 5a302bf553af0e6fedfc63299fc5cd6e79599ef3
+  revision: d8bc0964d29837407efe425d7a65ab9a27d96e82
   specs:
     actioncable (5.1.0.alpha)
       actionpack (= 5.1.0.alpha)
@@ -107,7 +107,7 @@ GEM
       pkg-config (~> 1.1.7)
     pg (0.18.4)
     pkg-config (1.1.7)
-    puma (3.4.0)
+    puma (3.5.0)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
