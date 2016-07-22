@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', github: 'rails/rails'
+gem 'rails',      github: 'rails/rails'
+gem 'sass-rails', github: 'rails/sass-rails'
 
 gem 'turbolinks'
 gem 'coffee-rails'
-gem 'sass-rails'
 gem 'pg'
 gem 'puma'
 gem 'uglifier'
