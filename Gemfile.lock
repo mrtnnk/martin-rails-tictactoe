@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 58cabed38efddf54b67fd705fb98f5682fb1d5aa
+  revision: 53ede1aff2025d4391d0e05ba471fdaf3110a99c
   specs:
     actioncable (5.1.0.alpha)
       actionpack (= 5.1.0.alpha)
@@ -138,10 +138,11 @@ GEM
     redis (3.3.1)
     ruby_dep (1.4.0)
     sass (3.4.22)
-    spring (1.7.2)
-    spring-watcher-listen (2.0.0)
+    spring (2.0.0)
+      activesupport (>= 4.2)
+    spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
-      spring (~> 1.2)
+      spring (>= 1.2, < 3.0)
     sprockets (4.0.0.beta3)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
