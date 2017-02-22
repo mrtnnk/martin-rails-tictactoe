@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',      git: 'https://github.com/rails/rails'
-gem 'sass-rails', git: 'https://github.com/rails/sass-rails'
-gem 'arel', git: 'https://github.com/rails/arel'
 
+gem 'sass-rails'
 gem 'turbolinks'
 gem 'coffee-rails'
 gem 'pg'
