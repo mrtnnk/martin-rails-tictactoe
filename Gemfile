@@ -4,7 +4,7 @@ gem 'rails', git: 'https://github.com/rails/rails'
 
 gem 'sass-rails'
 gem 'turbolinks'
-gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
+gem 'coffee-rails'
 gem 'pg'
 gem 'puma'
 gem 'uglifier'
