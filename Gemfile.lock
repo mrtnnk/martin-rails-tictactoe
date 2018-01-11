@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 2c08446e0c17a8813439d9325061caa589fbce9c
+  revision: c09ebcf4a9d708de05025f669c4e6f018c0b3be5
   specs:
     actioncable (5.2.0.beta2)
       actionpack (= 5.2.0.beta2)
@@ -109,7 +109,7 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    pg (0.21.0)
+    pg (1.0.0)
     rack (2.0.3)
     rack-test (0.8.2)
       rack (>= 1.0, < 3)
@@ -181,7 +181,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   listen
-  pg (= 0.21.0)
+  pg
   rails!
   rails_12factor
   redis
