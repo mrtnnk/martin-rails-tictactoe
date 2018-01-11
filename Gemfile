@@ -6,7 +6,7 @@ gem 'arel'
 gem 'sass-rails'
 gem 'turbolinks'
 gem 'coffee-rails'
-gem 'pg'
+gem 'pg', '0.21.0' # 1/11/2018: LOCKED DOWN
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'jbuilder'
