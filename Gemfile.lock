@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 5368f2508651c92fbae40cd679afbafdd7e98e77
+  revision: 958c5ad9e9ba8cf814dfff1ea962876f95f791ea
   specs:
     actioncable (6.0.0.alpha)
       actionpack (= 6.0.0.alpha)
@@ -69,7 +69,7 @@ GEM
     arel (9.0.0)
     bindex (0.5.0)
     builder (3.2.3)
-    byebug (10.0.0)
+    byebug (10.0.1)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
