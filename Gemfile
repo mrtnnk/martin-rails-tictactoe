@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', git: 'https://github.com/rails/rails'
-gem 'arel'
 
 gem 'sass-rails'
 gem 'turbolinks'
