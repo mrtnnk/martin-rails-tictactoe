@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'rails', git: 'https://github.com/rails/rails'
+gem 'jbuilder', git: 'https://github.com/rails/jbuilder' # 2/5/2019: ADD git: option.
+gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails' # 2/5/2019: ADD git: option.
 
 gem 'sass-rails'
 gem 'turbolinks'
-gem 'coffee-rails'
 gem 'pg'
 gem 'uglifier'
 gem 'jquery-rails'
-gem 'jbuilder'
 gem 'redis'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
